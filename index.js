@@ -2,7 +2,7 @@ const awsIot = require('aws-iot-device-sdk')
 
 const Config = require('./config')
 
-const THING_NAME = 'esp32-dev99'
+const THING_NAME = Config.thingName
 const CLIENT_ID = 'nodejs-sdk-test'
 
 const { exit } = process
