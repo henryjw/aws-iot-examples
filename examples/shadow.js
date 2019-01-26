@@ -1,6 +1,6 @@
 const awsIot = require('aws-iot-device-sdk')
 
-const Config = require('./config')
+const Config = require('../config')
 
 const THING_NAME = Config.thingName
 
