@@ -1,14 +1,19 @@
 {
   "name": "iot-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "AWS IOT SDK examples",
   "main": "index.js",
   "scripts": {
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "aws",
+    "iot",
+    "sdk",
+    "examples"
+  ],
+  "author": "Henry Williams",
   "license": "MIT",
   "dependencies": {
     "aws-iot-device-sdk": "^2.2.1",
